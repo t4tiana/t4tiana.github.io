@@ -1,5 +1,5 @@
 import React, {useState, useEffect, lazy, Suspense} from "react";
-import {openSource} from "../../portfolio";
+import {recentProjects} from "../../portfolio";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
 
@@ -14,7 +14,7 @@ export default function Profile() {
   }
 
   useEffect(() => {
-    if (openSource.showGithubProfile === "true") {
+    if (recentProjects.showGithubProfile === "true") {
       const getProfileData = () => {
         fetch("/profile.json")
           .then(result => {
@@ -30,15 +30,15 @@ export default function Profile() {
               `${error} (because of this error GitHub contact section could not be displayed. Contact section has reverted to default)`
             );
             setProfileFunction("Error");
-            openSource.showGithubProfile = "false";
+            recentProjects.showGithubProfile = "false";
           });
       };
       getProfileData();
     }
   }, []);
   if (
-    openSource.display &&
-    openSource.showGithubProfile === "true" &&
+    recentProjects.display &&
+    recentProjects.showGithubProfile === "true" &&
     !(typeof prof === "string" || prof instanceof String)
   ) {
     return (
