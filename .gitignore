@@ -27,6 +27,6 @@ public/profile.json
 public/blogs.json
 
 #stuff from original template
-Dockerfile
-env.example
+.prettierignore
+.prettierrc
 
