@@ -1,0 +1,15 @@
+{
+  "short_name": "Tiana's porfolio",
+  "name": "Developer Portfolio for Tiana Silva",
+  "icons": [
+    {
+      "src": "/favicon",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6c63ff",
+  "background_color": "#ffffff"
+}
