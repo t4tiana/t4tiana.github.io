@@ -1,20 +1,16 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
+// Colors are changed globally in _globalColor.scss
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
-
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true, // 
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1500
 };
 
 // Summary And Greeting Section
-
 const illustration = {
   animated: true // Set to false to use static SVG
 };
@@ -23,11 +19,11 @@ const greeting = {
   username: "Tiana Silva",
   title: "Hi there, I'm Tiana",
   subTitle: emoji(
-    "A Full Stack Developer 🚀 with experience building web applications using Java / C# / JavaScript / React / Vue.js and some other cool libraries and frameworks."
+    "Fullstack developer with a background in international education"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://docs.google.com/document/d/1GhxXGAJo4vd3Z9CTFI8lF2M6oZuvHXzVKUEfiY1X_zQ/edit?usp=sharing",
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -176,7 +172,7 @@ const workExperiences = {
       date: "May 2024 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Develop high-quality enterprise software solutions for OCLC’s Worldshare Management Systems (WMS) SaaS product using Java, Spring, PostgreSQL, and React leading to successful RFP bids",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
@@ -310,7 +306,7 @@ const talkSection = {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      event_url: "example.com"
     }
   ],
   display: false // Set false to hide this section, defaults to true

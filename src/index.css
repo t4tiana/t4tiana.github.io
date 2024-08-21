@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Agustina Regular";
+  font-family: "Galunggung Script";
   font-style: normal;
   font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
+  src: local("gGalunggungScript"),
+    url("./assets/fonts/gGalunggungScript.ttf") format("woff");
   font-display: swap;
 }
 @font-face {
