@@ -3,9 +3,9 @@
   "name": "Developer Portfolio for Tiana Silva",
   "icons": [
     {
-      "src": "/favicon",
+      "src": "/favicon.ico",
       "sizes": "16x16",
-      "type": "image/png"
+      "type": "image/x-icon"
     }
   ],
   "start_url": ".",
