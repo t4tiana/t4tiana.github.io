@@ -7,20 +7,16 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  recentProjects,
   talkSection,
   achievementSection,
-  resumeSection
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewRecentProjects = recentProjects.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewTalks = talkSection.display;
-  const viewResume = resumeSection.display;
 
   return (
     <Headroom>
@@ -46,14 +42,14 @@ function Header() {
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Work Experience</a>
             </li>
           )}
-          {viewRecentProjects && (
+          {
             <li>
-              <a href="#recentProjects">GitHub repos</a>
+              <a href="https://www.github.com/t4tiana" target="_blank" rel="noreferrer">GitHub</a>
             </li>
-          )}
+          }
           {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
@@ -64,11 +60,11 @@ function Header() {
               <a href="#talks">Talks</a>
             </li>
           )}
-          {viewResume && (
+          {
             <li>
-              <a href="#resume">Resume</a>
+              <a href="https://docs.google.com/document/d/1GhxXGAJo4vd3Z9CTFI8lF2M6oZuvHXzVKUEfiY1X_zQ/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
             </li>
-          )}
+          }
           <li>
             <a href="#contact">Contact Me</a>
           </li>

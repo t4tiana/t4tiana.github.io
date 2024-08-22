@@ -18,9 +18,7 @@ const illustration = {
 const greeting = {
   username: "Tiana Silva",
   title: "Hi there, I'm Tiana",
-  subTitle: emoji(
-    "Fullstack developer with a background in international education"
-  ),
+  subTitle: emoji("Fullstack developer with a background in international education, enthusiastically pursuing any and all opportunities to learn and grow"),
   resumeLink:
     "https://docs.google.com/document/d/1GhxXGAJo4vd3Z9CTFI8lF2M6oZuvHXzVKUEfiY1X_zQ/edit?usp=sharing",
   displayGreeting: true
@@ -40,15 +38,14 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Technical Skills",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Object-oriented programming with awareness of design patterns and enterprise architecture"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Modern UI frameworks and style libraries for creating intuitive, user-friendly designs"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ RESTful APIs and an affinity for detailed documentation"
     )
   ],
 
@@ -57,55 +54,51 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "C#",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "PostgreSQL | T-SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "HTML",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Vue.js",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Jira",
+      fontAwesomeClassname: "fab fa-jira"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
@@ -115,25 +108,25 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Tech Elevator",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: ".NET/C# Web Application Developer",
+      duration: "January 2024 - April 2024",
+      desc: "...",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "University of Strathclyde",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      subHeader: "Master of Science in Business Management",
+      duration: "September 2020 - September 2021",
+      desc: "...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -142,7 +135,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -168,27 +161,39 @@ const workExperiences = {
     {
       role: "Associate Software Engineer",
       company: "OCLC",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/oclc-logo.png"),
       date: "May 2024 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      //: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Develop high-quality enterprise software solutions for OCLC’s Worldshare Management Systems (WMS) SaaS product using Java, Spring, PostgreSQL, and React leading to successful RFP bids",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Investigate technical issues related to WMS’s Acquisitions service using debugging skills and code resolutions at or before expected times listed on Jira, enabling application to resume expected functionality to over 850 client institutions",
+        "Collaborate closely with international, cross-functional agile team of 18 including developers, architects, QA, and product owners to understand client requirements and turn them into technical solutions"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Subject Matter Expert (Product)",
+      company: "Strive Math (YC S21)",
+      companylogo: require("./assets/images/strivemath_logo.jpeg"),
+      date: "Sep 2023 – Dec 2023",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Increased client acquisition from 3 to 9 within four months by capitalizing on knowledge of industry trends and collaborating with co-founders to create go-to-market strategy for new after-school coding program",
+        "Maintained data in Airtable and wrote JavaScript automations to streamline client interactions and ensure consistent and timely communication with 150+ current and prospective customers",
+        "Established and nurtured client partnerships, leading to more than 5x increase in student enrollment for company-hosted hackathon within two months of onboarding"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "High School Economics Teacher and Team Lead",
+      company: "International Schools",
+      companylogo: require("./assets/images/globe.png"),
+      date: "Aug 2016 – Jun 2023",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Taipei, Taiwan - Dubai, UAE - Singapore",
+        "Promoted to team lead positions in Taipei and Singapore coinciding with periods of curriculum overhaul and implementation of new learning management system. Facilitated change management and met all milestones ahead of project timelines",
+        "Created data visualizations of exam results and periodically delivered findings to senior leadership, securing approval for increased headcount and justifying department budget allocation",
+        "Regularly conducted data analysis of over 300 student exams and coordinated adaptation of assessments, resulting in students exceeding target achievement by an average of 12% each year"
+      ]
     }
   ]
 };
@@ -204,29 +209,40 @@ const recentProjects = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Recent Projects",
+  subtitle: "Things I've made to practice new languages, tools, and techniques",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ff-screen.png"),
+      projectName: "The Fast and the Furious Movie Review Web App",
+      projectDesc: "Java | Spring Boot | MongoDB | React",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View on GitHub",
+          url: "https://github.com/t4tiana/full-stack-movie-api/blob/main/README.md"
         }
-        //  you can add extra buttons here.
+        //  add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/dss-screen.png"),
+      projectName: "Storage Auction Web App",
+      projectDesc: "C# | .NET | T-SQL | Vue.js",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View on GitHub",
+          url: "https://github.com/t4tiana/storage-auction-app/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/venmo-clone-thumbnail.png"),
+      projectName: "Command Line App",
+      projectDesc: "C# | .NET | T-SQL",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/t4tiana/Venmo-Clone-project/blob/main/README.md"
         }
       ]
     }
@@ -298,7 +314,7 @@ const achievementSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY KNOWLEDGE 😅"
   ),
 
   talks: [
@@ -312,44 +328,18 @@ const talkSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me",
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    emoji("🌟 I enjoy meeting new people and discussing all things tech, education, and travel 🌟"),
 };
-
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
-
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -364,9 +354,6 @@ export {
   bigProjects,
   achievementSection,
   talkSection,
-  podcastSection,
   contactInfo,
-  twitterDetails,
-  isHireable,
   resumeSection
 };
