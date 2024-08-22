@@ -51,11 +51,11 @@ const Main = () => {
             <Greeting />
             <Skills />
             <StartupProject />
-            <StackProgress />
-            <Education />
-            <WorkExperience />
             <Projects />
+            <StackProgress />
+            <WorkExperience />
             <Achievement />
+            <Education />
             <Talks />
             <Profile />
             <Footer />

@@ -30,9 +30,7 @@ const socialMediaLinks = {
   github: "https://github.com/t4tiana",
   linkedin: "https://www.linkedin.com/in/tianasilva/",
   gmail: "tianarenees@gmail.com",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true 
 };
 
 // Skills Section
@@ -108,26 +106,26 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Tech Elevator",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: ".NET/C# Web Application Developer",
-      duration: "January 2024 - April 2024",
-      desc: "...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Fulbright",
+      logo: require("./assets/images/fullbright.png"),
+      subHeader: "Grant Recipient",
+      duration: "Taiwan 2015",
+      // desc: "...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
-      schoolName: "University of Strathclyde",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Master of Science in Business Management",
-      duration: "September 2020 - September 2021",
-      desc: "...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Teach for America",
+      logo: require("./assets/images/tfa-logo-png.png"),
+      subHeader: "Corps Member",
+      duration: "San Antonio 2013",
+      // desc: "...",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     }
   ]
 };
@@ -254,59 +252,37 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "",
 
   achievementsCards: [
     {
-      title: "WIP",
-      subtitle: "WIP",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Google Project Management Certificate",
+      subtitle: "2023",
+      image: require("./assets/images/GCC_badge_PGM_1000x1000.png"),
+      imageAlt: "Google Coursera PM Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://www.google.com"
-        },
-        {
-          name: "Award Letter",
-          url: "https://www.google.com"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://www.google.com"
+          name: "Certificate Verification",
+          url: "https://www.coursera.org/account/accomplishments/professional-cert/KKYQRBXUM5YG"
         }
       ]
     },
     {
-      title: "WIP",
-      subtitle: "WIP",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Accredited Performance Coach",
+      subtitle: "2021",
+      image: require("./assets/images/coaching.jpeg"),
+      imageAlt: "Coaching Logo",
       footerLink: [
         {
-          name: "WIP",
-          url: "https://www.google.com"
-        }
-      ]
-    },
-
-    {
-      title: "WIP",
-      subtitle: "WIP",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "WIP",
-          url: "https://www.google.com"
+          name: "Culture at Work Website",
+          url: "https://www.coachingcultureatwork.com/coach-training-teachers/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Talks Sections

@@ -40,19 +40,19 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
-          {viewExperience && (
-            <li>
-              <a href="#experience">Work Experience</a>
-            </li>
-          )}
           {
             <li>
               <a href="https://www.github.com/t4tiana" target="_blank" rel="noreferrer">GitHub</a>
             </li>
           }
+          {viewExperience && (
+            <li>
+              <a href="#experience">Work Experience</a>
+            </li>
+          )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">Certifications</a>
             </li>
           )}
           {viewTalks && (
