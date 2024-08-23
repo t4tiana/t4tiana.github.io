@@ -24,7 +24,7 @@
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
     "postbuild": "copy CNAME build\\",
-    "deploy": "gh-pages -d build --CNAME CNAME",
+    "deploy": "gh-pages -d build --cname CNAME",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
