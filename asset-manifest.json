@@ -32,8 +32,5 @@
     "769.b3cbb36b.chunk.css.map": "/t4tiana.github.io/static/css/769.b3cbb36b.chunk.css.map",
     "769.4bf66b16.chunk.js.map": "/t4tiana.github.io/static/js/769.4bf66b16.chunk.js.map"
   },
-  "entrypoints": [
-    "static/css/main.72226f54.css",
-    "static/js/main.dd865288.js"
-  ]
+  "entrypoints": ["static/css/main.72226f54.css", "static/js/main.dd865288.js"]
 }
