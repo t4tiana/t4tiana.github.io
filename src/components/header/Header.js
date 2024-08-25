@@ -8,7 +8,7 @@ import {
   workExperiences,
   skillsSection,
   talkSection,
-  achievementSection,
+  achievementSection
 } from "../../portfolio";
 
 function Header() {
@@ -42,7 +42,13 @@ function Header() {
           )}
           {
             <li>
-              <a href="https://www.github.com/t4tiana" target="_blank" rel="noreferrer">GitHub</a>
+              <a
+                href="https://www.github.com/t4tiana"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
             </li>
           }
           {viewExperience && (
@@ -62,7 +68,13 @@ function Header() {
           )}
           {
             <li>
-              <a href="https://docs.google.com/document/d/1GhxXGAJo4vd3Z9CTFI8lF2M6oZuvHXzVKUEfiY1X_zQ/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+              <a
+                href="https://docs.google.com/document/d/1GhxXGAJo4vd3Z9CTFI8lF2M6oZuvHXzVKUEfiY1X_zQ/edit?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
+              </a>
             </li>
           }
           <li>

@@ -5,7 +5,7 @@ import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 const splashScreen = {
-  enabled: true, // 
+  enabled: true, //
   animation: splashAnimation,
   duration: 1500
 };
@@ -18,7 +18,9 @@ const illustration = {
 const greeting = {
   username: "Tiana Silva",
   title: "Hi there, I'm Tiana",
-  subTitle: emoji("Fullstack developer with a background in international education, enthusiastically pursuing any and all opportunities to learn and grow"),
+  subTitle: emoji(
+    "Fullstack developer with a background in international education, enthusiastically pursuing any and all opportunities to learn and grow"
+  ),
   resumeLink:
     "https://docs.google.com/document/d/1GhxXGAJo4vd3Z9CTFI8lF2M6oZuvHXzVKUEfiY1X_zQ/edit?usp=sharing",
   displayGreeting: true
@@ -30,7 +32,7 @@ const socialMediaLinks = {
   github: "https://github.com/t4tiana",
   linkedin: "https://www.linkedin.com/in/tianasilva/",
   gmail: "tianarenees@gmail.com",
-  display: true 
+  display: true
 };
 
 // Skills Section
@@ -41,10 +43,10 @@ const skillsSection = {
     emoji(
       "⚡ Object-oriented programming with awareness of design patterns and enterprise architecture"
     ),
-    emoji("⚡ Modern UI frameworks and style libraries for creating intuitive, user-friendly designs"),
     emoji(
-      "⚡ RESTful APIs and an affinity for detailed documentation"
-    )
+      "⚡ Modern UI frameworks and style libraries for creating intuitive, user-friendly designs"
+    ),
+    emoji("⚡ RESTful APIs and an affinity for detailed documentation")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -112,7 +114,7 @@ const educationInfo = {
       schoolName: "Fulbright",
       logo: require("./assets/images/fullbright.png"),
       subHeader: "Grant Recipient",
-      duration: "Taiwan 2015",
+      duration: "Taiwan 2015"
       // desc: "...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
@@ -120,7 +122,7 @@ const educationInfo = {
       schoolName: "Teach for America",
       logo: require("./assets/images/tfa-logo-png.png"),
       subHeader: "Corps Member",
-      duration: "San Antonio 2013",
+      duration: "San Antonio 2013"
       // desc: "...",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -253,8 +255,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Certifications"),
-  subtitle:
-    "",
+  subtitle: "",
 
   achievementsCards: [
     {
@@ -289,9 +290,7 @@ const achievementSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY KNOWLEDGE 😅"
-  ),
+  subtitle: emoji("I LOVE TO SHARE MY KNOWLEDGE 😅"),
 
   talks: [
     {
@@ -313,8 +312,9 @@ const resumeSection = {
 
 const contactInfo = {
   title: "Contact Me",
-  subtitle:
-    emoji("🌟 I enjoy meeting new people and discussing all things tech, education, and travel 🌟"),
+  subtitle: emoji(
+    "🌟 I enjoy meeting new people and discussing all things tech, education, and travel 🌟"
+  )
 };
 
 export {
