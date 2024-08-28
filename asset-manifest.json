@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/t4tiana.github.io/static/css/main.b2810cb6.css",
-    "main.js": "/t4tiana.github.io/static/js/main.763c7ae8.js",
+    "main.js": "/t4tiana.github.io/static/js/main.7e49e1f1.js",
     "static/css/769.b3cbb36b.chunk.css": "/t4tiana.github.io/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.47dde706.chunk.js": "/t4tiana.github.io/static/js/769.47dde706.chunk.js",
     "static/media/ff-screen.png": "/t4tiana.github.io/static/media/ff-screen.2958a2e2cf4b7bedaaca.png",
@@ -23,12 +23,12 @@
     "index.html": "/t4tiana.github.io/index.html",
     "static/media/talksCardBack.svg": "/t4tiana.github.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.b2810cb6.css.map": "/t4tiana.github.io/static/css/main.b2810cb6.css.map",
-    "main.763c7ae8.js.map": "/t4tiana.github.io/static/js/main.763c7ae8.js.map",
+    "main.7e49e1f1.js.map": "/t4tiana.github.io/static/js/main.7e49e1f1.js.map",
     "769.b3cbb36b.chunk.css.map": "/t4tiana.github.io/static/css/769.b3cbb36b.chunk.css.map",
     "769.47dde706.chunk.js.map": "/t4tiana.github.io/static/js/769.47dde706.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2810cb6.css",
-    "static/js/main.763c7ae8.js"
+    "static/js/main.7e49e1f1.js"
   ]
 }
