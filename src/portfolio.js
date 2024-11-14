@@ -165,9 +165,9 @@ const workExperiences = {
       date: "May 2024 – Present",
       //: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Develop high-quality enterprise software solutions for OCLC’s Worldshare Management Systems (WMS) SaaS product using Java, Spring, PostgreSQL, and React leading to successful RFP bids",
-        "Investigate technical issues related to WMS’s Acquisitions service using debugging skills and code resolutions at or before expected times listed on Jira, enabling application to resume expected functionality to over 850 client institutions",
-        "Collaborate closely with international, cross-functional agile team of 18 including developers, architects, QA, and product owners to understand client requirements and turn them into technical solutions"
+        "Develop end-to-end enterprise software features for OCLC’s Worldshare Management Systems (WMS) SaaS product using Java, Spring, PostgreSQL, and React leading to successful RFP bids",
+        "Investigate technical issues related to WMS’s Acquisitions microservices using debugging skills and code resolutions at or before expected times listed on Jira, enabling application to resume expected functionality to over 850 client institutions",
+        "Collaborate closely with international, cross-functional agile team of 16 including developers, architects, QA, and product owners to understand client requirements and turn them into technical solutions"
       ]
     },
     {
