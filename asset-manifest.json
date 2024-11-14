@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/t4tiana.github.io/static/css/main.b2810cb6.css",
-    "main.js": "/t4tiana.github.io/static/js/main.7e49e1f1.js",
+    "main.js": "/t4tiana.github.io/static/js/main.ba6f8abe.js",
     "static/css/769.b3cbb36b.chunk.css": "/t4tiana.github.io/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.47dde706.chunk.js": "/t4tiana.github.io/static/js/769.47dde706.chunk.js",
     "static/media/ff-screen.png": "/t4tiana.github.io/static/media/ff-screen.2958a2e2cf4b7bedaaca.png",
     "static/media/dss-screen.png": "/t4tiana.github.io/static/media/dss-screen.4971d945f3421bf87321.png",
     "static/media/Montserrat-Regular.ttf": "/t4tiana.github.io/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/GCC_badge_PGM_1000x1000.png": "/t4tiana.github.io/static/media/GCC_badge_PGM_1000x1000.d6ec712197cc5366652b.png",
-    "static/media/tiana-silva-resume.pdf": "/t4tiana.github.io/static/media/tiana-silva-resume.c6791c8a537224c17a42.pdf",
+    "static/media/tiana-silva-resume.pdf": "/t4tiana.github.io/static/media/tiana-silva-resume.423765d0369f38ccaab5.pdf",
     "static/media/tfa-logo-png.png": "/t4tiana.github.io/static/media/tfa-logo-png.6bed7e92382c3b790992.png",
     "static/media/oclc-logo.png": "/t4tiana.github.io/static/media/oclc-logo.92bb0d8b9b1e3b29ab6f.png",
     "static/media/fullbright.png": "/t4tiana.github.io/static/media/fullbright.a38aa7e7248947488609.png",
@@ -23,12 +23,12 @@
     "index.html": "/t4tiana.github.io/index.html",
     "static/media/talksCardBack.svg": "/t4tiana.github.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.b2810cb6.css.map": "/t4tiana.github.io/static/css/main.b2810cb6.css.map",
-    "main.7e49e1f1.js.map": "/t4tiana.github.io/static/js/main.7e49e1f1.js.map",
+    "main.ba6f8abe.js.map": "/t4tiana.github.io/static/js/main.ba6f8abe.js.map",
     "769.b3cbb36b.chunk.css.map": "/t4tiana.github.io/static/css/769.b3cbb36b.chunk.css.map",
     "769.47dde706.chunk.js.map": "/t4tiana.github.io/static/js/769.47dde706.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2810cb6.css",
-    "static/js/main.7e49e1f1.js"
+    "static/js/main.ba6f8abe.js"
   ]
 }
