@@ -22,7 +22,7 @@ const greeting = {
     "Fullstack developer with a background in international education, enthusiastically pursuing any and all opportunities to learn and grow"
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1GhxXGAJo4vd3Z9CTFI8lF2M6oZuvHXzVKUEfiY1X_zQ/edit?usp=sharing",
+    "https://docs.google.com/document/d/1eImst5dvjtWaGFsoMWH7YHbF2wFMG1YNv_x9LNuY5u0/edit?usp=sharing",
   displayGreeting: true
 };
 
