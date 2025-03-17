@@ -69,7 +69,7 @@ function Header() {
           {
             <li>
               <a
-                href="https://docs.google.com/document/d/1GhxXGAJo4vd3Z9CTFI8lF2M6oZuvHXzVKUEfiY1X_zQ/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1eImst5dvjtWaGFsoMWH7YHbF2wFMG1YNv_x9LNuY5u0/edit?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
