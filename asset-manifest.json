@@ -1,34 +1,33 @@
 {
   "files": {
     "main.css": "/t4tiana.github.io/static/css/main.b2810cb6.css",
-    "main.js": "/t4tiana.github.io/static/js/main.23ff66c0.js",
+    "main.js": "/t4tiana.github.io/static/js/main.a1dff380.js",
     "static/css/769.b3cbb36b.chunk.css": "/t4tiana.github.io/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.47dde706.chunk.js": "/t4tiana.github.io/static/js/769.47dde706.chunk.js",
     "static/media/ff-screen.png": "/t4tiana.github.io/static/media/ff-screen.2958a2e2cf4b7bedaaca.png",
     "static/media/dss-screen.png": "/t4tiana.github.io/static/media/dss-screen.4971d945f3421bf87321.png",
     "static/media/Montserrat-Regular.ttf": "/t4tiana.github.io/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/tiana-silva-resume.pdf": "/t4tiana.github.io/static/media/tiana-silva-resume.841d2b31d7cded02104b.pdf",
     "static/media/GCC_badge_PGM_1000x1000.png": "/t4tiana.github.io/static/media/GCC_badge_PGM_1000x1000.d6ec712197cc5366652b.png",
     "static/media/tfa-logo-png.png": "/t4tiana.github.io/static/media/tfa-logo-png.6bed7e92382c3b790992.png",
     "static/media/oclc-logo.png": "/t4tiana.github.io/static/media/oclc-logo.92bb0d8b9b1e3b29ab6f.png",
     "static/media/fullbright.png": "/t4tiana.github.io/static/media/fullbright.a38aa7e7248947488609.png",
-    "static/media/globe.png": "/t4tiana.github.io/static/media/globe.c9a51544464408e86132.png",
     "static/media/manOnTable.svg": "/t4tiana.github.io/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/coaching.jpeg": "/t4tiana.github.io/static/media/coaching.819e8bde33ab53809748.jpeg",
     "static/media/contactMailDark.svg": "/t4tiana.github.io/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/t4tiana.github.io/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/visa-logo.png": "/t4tiana.github.io/static/media/visa-logo.ff84b183711b43e99f8d.png",
     "static/media/gGalunggungScript.ttf": "/t4tiana.github.io/static/media/gGalunggungScript.f77bd8ab8ba927492f37.ttf",
     "static/media/venmo-clone-thumbnail.png": "/t4tiana.github.io/static/media/venmo-clone-thumbnail.7d6a4cf514cc965a1752.png",
     "static/media/skill.svg": "/t4tiana.github.io/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/t4tiana.github.io/index.html",
     "static/media/talksCardBack.svg": "/t4tiana.github.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.b2810cb6.css.map": "/t4tiana.github.io/static/css/main.b2810cb6.css.map",
-    "main.23ff66c0.js.map": "/t4tiana.github.io/static/js/main.23ff66c0.js.map",
+    "main.a1dff380.js.map": "/t4tiana.github.io/static/js/main.a1dff380.js.map",
     "769.b3cbb36b.chunk.css.map": "/t4tiana.github.io/static/css/769.b3cbb36b.chunk.css.map",
     "769.47dde706.chunk.js.map": "/t4tiana.github.io/static/js/769.47dde706.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2810cb6.css",
-    "static/js/main.23ff66c0.js"
+    "static/js/main.a1dff380.js"
   ]
 }
