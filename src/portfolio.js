@@ -16,10 +16,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Tiana Silva",
+  username: "Tiana Silva", //what goes in the logo
   title: "Hi there, I'm Tiana",
   subTitle: emoji(
-    "Fullstack developer with a background in international education, enthusiastically pursuing any and all opportunities to learn and grow"
+    "Full stack engineer who enjoys creating seamless, inclusive, human-centered financial technology"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1eImst5dvjtWaGFsoMWH7YHbF2wFMG1YNv_x9LNuY5u0/edit?usp=sharing",
@@ -49,14 +49,8 @@ const skillsSection = {
     emoji("⚡ RESTful APIs and an affinity for detailed documentation")
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "C#",
-      fontAwesomeClassname: "fab fa-microsoft"
-    },
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
@@ -66,16 +60,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "PostgreSQL | T-SQL",
+      skillName: "C#",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "PostgreSQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "HTML",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "CSS",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Android",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "JavaScript",
@@ -84,10 +78,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "React",
       fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "Vue.js",
-      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
       skillName: "Jira",
@@ -102,13 +92,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "Fulbright",
@@ -132,8 +122,6 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
 const techStack = {
   viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
@@ -156,13 +144,25 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
+    {
+      role: "Software Engineer",
+      company: "Visa",
+      companylogo: require("./assets/images/visa-logo.png"),
+      date: "Jul 2025 – Present",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Co-leading backend systems integration for payment authentication APIs, taking ownership of critical infrastructure supporting e-commerce transaction flows through Visa's Cardinal Mobile SDK",
+        "Built a POC for a new AI-driven mobile product that demonstrated revenue potential, receiving executive endorsement and direction to enhance the prototype with additional capabilities",
+        "Led accessibility compliance initiative for team’s Android SDK, conducting gap analysis against WCAG 2.2 standards and implementing code fixes to meet enterprise client requirements"
+      ]
+    },
     {
       role: "Associate Software Engineer",
       company: "OCLC",
       companylogo: require("./assets/images/oclc-logo.png"),
-      date: "May 2024 – Present",
+      date: "May 2024 – Jul 2025",
       //: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Develop end-to-end enterprise software features for OCLC’s Worldshare Management Systems (WMS) SaaS product using Java, Spring, PostgreSQL, and React leading to successful RFP bids",
@@ -181,32 +181,16 @@ const workExperiences = {
         "Maintained data in Airtable and wrote JavaScript automations to streamline client interactions and ensure consistent and timely communication with 150+ current and prospective customers",
         "Established and nurtured client partnerships, leading to more than 5x increase in student enrollment for company-hosted hackathon within two months of onboarding"
       ]
-    },
-    {
-      role: "High School Economics Teacher and Team Lead",
-      company: "International Schools",
-      companylogo: require("./assets/images/globe.png"),
-      date: "Aug 2016 – Jun 2023",
-      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Taipei, Taiwan - Dubai, UAE - Singapore",
-        "Promoted to team lead positions in Taipei and Singapore coinciding with periods of curriculum overhaul and implementation of new learning management system. Facilitated change management and met all milestones ahead of project timelines",
-        "Created data visualizations of exam results and periodically delivered findings to senior leadership, securing approval for increased headcount and justifying department budget allocation",
-        "Regularly conducted data analysis of over 300 student exams and coordinated adaptation of assessments, resulting in students exceeding target achievement by an average of 12% each year"
-      ]
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
+/* View Github Pinned Projects*/
 
 const recentProjects = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true",
+  display: true
 };
-
-// Some big projects you have worked on
 
 const bigProjects = {
   title: "Recent Projects",
@@ -247,11 +231,10 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Certifications"),
@@ -294,20 +277,20 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      title: "Lorem ipsum dolor sit amet",
+      subtitle: "Codelab at GDG DevFest",
+      slides_url: "lorem ipsum",
       event_url: "example.com"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 const contactInfo = {
