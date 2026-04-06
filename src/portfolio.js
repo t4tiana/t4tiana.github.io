@@ -151,11 +151,10 @@ const workExperiences = {
       company: "Visa",
       companylogo: require("./assets/images/visa-logo.png"),
       date: "Jul 2025 – Present",
-      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Co-leading backend systems integration for payment authentication APIs, taking ownership of critical infrastructure supporting e-commerce transaction flows through Visa's Cardinal Mobile SDK",
+        "Co-leading backend API development for payment authentication infrastructure, shipping configuration endpoints that enhance reliability of Visa's Cardinal Mobile SDK and deliver solutions for client customization",
         "Built a POC for a new AI-driven mobile product that demonstrated revenue potential, receiving executive endorsement and direction to enhance the prototype with additional capabilities",
-        "Led accessibility compliance initiative for team’s Android SDK, conducting gap analysis against WCAG 2.2 standards and implementing code fixes to meet enterprise client requirements"
+        "Took ownership of stalled EMVCo 3DS certification effort, developing net-new features and fixing incomplete implementations to successfully certify CMSDK against 1000+ compliance tests and meet latest authentication standards"
       ]
     },
     {
@@ -163,7 +162,6 @@ const workExperiences = {
       company: "OCLC",
       companylogo: require("./assets/images/oclc-logo.png"),
       date: "May 2024 – Jul 2025",
-      //: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Develop end-to-end enterprise software features for OCLC’s Worldshare Management Systems (WMS) SaaS product using Java, Spring, PostgreSQL, and React leading to successful RFP bids",
         "Investigate technical issues related to WMS’s Acquisitions microservices using debugging skills and code resolutions at or before expected times listed on Jira, enabling application to resume expected functionality to over 850 client institutions",
