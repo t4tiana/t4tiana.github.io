@@ -30,3 +30,7 @@ public/blogs.json
 .prettierignore
 .prettierrc
 
+
+# local deploy notes
+/deploy.md
+
